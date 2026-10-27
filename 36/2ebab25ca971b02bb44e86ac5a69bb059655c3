@@ -1,0 +1,22 @@
+RUBRICA.md
+  s_7af073b9865593::t_382a4938da7203 3,5-10,12-13,15,17-19,21,23,25,27,29-51,53,55-58,60,62,64-92,98-101,103-104,108-110,112-114,116,119-120,124-126,130,132,139-140,142-144,146,148-149,151-153,155,157-163,172
+  s_7af073b9865593::t_76b543a4c5a7f1 117
+DECISIONS.md
+  s_7af073b9865593::t_c5fe0ba70be858 5-38,42-43,58-60,64-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "362ebab25ca971b02bb44e86ac5a69bb059655c3",
+  "prompts": {},
+  "sessions": {
+    "s_7af073b9865593": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6375af64-6276-46b0-a539-e82ee62acb32",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "gabriel <ggoc.carvalho@gmail.com>"
+    }
+  }
+}
