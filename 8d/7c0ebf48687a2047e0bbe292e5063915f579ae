@@ -1,0 +1,24 @@
+RUBRICA.md
+  s_7af073b9865593::t_3772748ba8ea3e 164-165
+  s_7af073b9865593::t_97aef7aa970e19 96
+  s_7af073b9865593::t_b2e273cce68a5e 106-107
+  s_7af073b9865593::t_50b8c467e621ad 128-129
+docs/guias/07-organizacao-do-time.md
+  s_7af073b9865593::t_cd177617c27af9 1,3-4,6,8-10,12-13,19-21,23,29-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8d7c0ebf48687a2047e0bbe292e5063915f579ae",
+  "prompts": {},
+  "sessions": {
+    "s_7af073b9865593": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6375af64-6276-46b0-a539-e82ee62acb32",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "gabriel <ggoc.carvalho@gmail.com>"
+    }
+  }
+}
