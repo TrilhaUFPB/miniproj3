@@ -1,0 +1,19 @@
+docs/defesa.md
+  s_7af073b9865593::t_7a71fea13e3b61 42-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "75b5399f55e409ba9e877da84e53953472b93b86",
+  "prompts": {},
+  "sessions": {
+    "s_7af073b9865593": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6375af64-6276-46b0-a539-e82ee62acb32",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "gabriel <ggoc.carvalho@gmail.com>"
+    }
+  }
+}
