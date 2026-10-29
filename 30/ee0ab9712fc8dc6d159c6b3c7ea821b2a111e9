@@ -1,0 +1,33 @@
+docs/guias/09-teste-autoral.md
+  s_b437b12222e9bb::t_0d6dbea36735b6 79-81
+.github/ISSUE_TEMPLATE/feature.md
+  s_b437b12222e9bb::t_0d6dbea36735b6 10
+RUBRICA.md
+  s_b437b12222e9bb::t_0d6dbea36735b6 41-42,79,82,86,100
+docs/guias/08-deploy.md
+  s_b437b12222e9bb::t_0d6dbea36735b6 4,14,74,76,78
+docs/guias/06-upload.md
+  s_b437b12222e9bb::t_0d6dbea36735b6 5
+CATALOGO.md
+  s_b437b12222e9bb::t_0d6dbea36735b6 10
+docs/guias/02-git-em-equipe.md
+  s_b437b12222e9bb::t_0d6dbea36735b6 5
+docs/guias/07-organizacao-do-time.md
+  s_b437b12222e9bb::t_0d6dbea36735b6 8-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "30ee0ab9712fc8dc6d159c6b3c7ea821b2a111e9",
+  "prompts": {},
+  "sessions": {
+    "s_b437b12222e9bb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ea60c703-c2f3-4daa-8ce5-b8cd1b92266c",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "gabriel <ggoc.carvalho@gmail.com>"
+    }
+  }
+}
