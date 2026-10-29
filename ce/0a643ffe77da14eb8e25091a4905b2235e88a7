@@ -1,0 +1,21 @@
+README.md
+  s_b437b12222e9bb::t_e3ebd5b19b0044 5-10,55-57
+DECISIONS.md
+  s_b437b12222e9bb::t_e3ebd5b19b0044 5-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ce0a643ffe77da14eb8e25091a4905b2235e88a7",
+  "prompts": {},
+  "sessions": {
+    "s_b437b12222e9bb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ea60c703-c2f3-4daa-8ce5-b8cd1b92266c",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "gabriel <ggoc.carvalho@gmail.com>"
+    }
+  }
+}
