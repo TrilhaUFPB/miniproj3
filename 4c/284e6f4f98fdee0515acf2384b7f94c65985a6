@@ -1,0 +1,22 @@
+CATALOGO.md
+  s_7af073b9865593::t_467390f2b292bf 14-16
+  s_7af073b9865593::t_8ffee46f17025a 25-34,41-68
+CONTRATO.md
+  s_7af073b9865593::t_2cb6a6b4bb5794 126,137,185,203,212,219,246
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4c284e6f4f98fdee0515acf2384b7f94c65985a6",
+  "prompts": {},
+  "sessions": {
+    "s_7af073b9865593": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6375af64-6276-46b0-a539-e82ee62acb32",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "gabriel <ggoc.carvalho@gmail.com>"
+    }
+  }
+}
