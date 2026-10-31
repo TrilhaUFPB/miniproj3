@@ -1,0 +1,23 @@
+CATALOGO.md
+  s_b437b12222e9bb::t_4297731b0960a3 3-7
+docs/guias/07-organizacao-do-time.md
+  s_b437b12222e9bb::t_4297731b0960a3 6-11,18-22,28-30,38-41,51-53
+README.md
+  s_b437b12222e9bb::t_4297731b0960a3 4,8-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d042ec5d56804396bd9fb7a18fbb0c86c926baf7",
+  "prompts": {},
+  "sessions": {
+    "s_b437b12222e9bb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ea60c703-c2f3-4daa-8ce5-b8cd1b92266c",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "gabriel <ggoc.carvalho@gmail.com>"
+    }
+  }
+}
