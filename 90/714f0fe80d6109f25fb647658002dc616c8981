@@ -1,0 +1,21 @@
+RUBRICA.md
+  s_b437b12222e9bb::t_49eb5ecf00375b 60
+docs/guias/08-deploy.md
+  s_b437b12222e9bb::t_236e6adb631edb 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "90714f0fe80d6109f25fb647658002dc616c8981",
+  "prompts": {},
+  "sessions": {
+    "s_b437b12222e9bb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ea60c703-c2f3-4daa-8ce5-b8cd1b92266c",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "gabriel <ggoc.carvalho@gmail.com>"
+    }
+  }
+}
