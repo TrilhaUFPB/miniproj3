@@ -1,0 +1,15 @@
+-- Dona: Pessoa 3. Depende de 01_identidade.sql (só referencia perfis(id)).
+-- Ids: bigint generated always as identity (uuid só em perfis).
+-- TODO:
+--   conversas (cliente_id, prestadora_id, UNIQUE no par, ultima_mensagem_em)
+--   mensagens (conversa_id, autor_id, texto, criada_em, lida_em)
+--   RLS: só os dois participantes leem e escrevem;
+--        insert em mensagens exige autor_id = auth.uid() e participação na conversa;
+--        sem update direto em mensagens (RLS não restringe colunas)
+--   funções (security definer):
+--     iniciar_conversa(prestadora_id): idempotente (devolve a conversa do par se já existe),
+--                                      valida papéis (cliente com prestadora)
+--     marcar_lidas(conversa_id): só preenche lida_em das mensagens de outra pessoa
+--     nao_lidas(): contagem por conversa, usada em Conversa.naoLidas
+--   Conversa.outraPessoaNome/outraPessoaAvatarUrl vêm de join com perfis
+--   Realtime habilitado em mensagens
