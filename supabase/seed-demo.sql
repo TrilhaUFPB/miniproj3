@@ -1,2 +1,4 @@
--- Dona: Pessoa 3. Dados de demonstracao no nicho (servicos domesticos).
--- TODO: 2 clientes e 3 prestadoras com senha conhecida, fotos, avaliacoes e conversas.
+-- Dona: Pessoa 3. Dados de demonstração no nicho (serviços domésticos).
+-- ATENÇÃO: cria usuários com senha conhecida. Rodar SOMENTE em projeto de
+-- desenvolvimento/demo, nunca no projeto compartilhado de produção.
+-- TODO: 2 clientes e 3 prestadoras com senha conhecida, fotos, avaliações e conversas.

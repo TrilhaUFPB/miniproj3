@@ -1,6 +1,13 @@
--- Dona: Pessoa 2. Depende de 01_identidade.sql (so referencia perfis(id)).
+-- Dona: Pessoa 2. Depende de 01_identidade.sql: perfis(id) nas FKs; a view
+-- prestadoras_resumo e o filtro por categoria também leem perfis,
+-- servicos_prestadora e categorias_servico.
+-- Ids: bigint generated always as identity (uuid só em perfis).
 -- TODO:
 --   avaliacoes (prestadora_id, cliente_id, nota CHECK 1..5, comentario, criada_em,
 --               UNIQUE (prestadora_id, cliente_id))
---   RLS: leitura publica; insert so de cliente, em nome proprio, para uma prestadora
---   view prestadoras_resumo (nota media e total de avaliacoes)
+--   RLS: leitura pública
+--        insert: cliente_id = auth.uid(), papel do autor = cliente e papel de
+--                prestadora_id = prestadora (policy com subquery em perfis, pois CHECK não cruza tabelas)
+--        update/delete: só o próprio autor (cliente_id = auth.uid())
+--   view prestadoras_resumo (nome, avatar, cidade, categorias, nota média e total de avaliações)
+--   busca por cidade sem acento e sem diferença de maiúscula (extensão unaccent ou coluna normalizada)
