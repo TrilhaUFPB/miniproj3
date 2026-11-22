@@ -30,6 +30,3 @@ instrutor/
 TODO.md
 docs/design.md
 docs/review-painel-v2.md
-
-# build incremental do TypeScript
-*.tsbuildinfo

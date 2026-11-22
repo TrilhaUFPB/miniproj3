@@ -1,9 +1,0 @@
--- Dona: Pessoa 1. Aplicar primeiro (02 e 03 dependem de perfis; 02 também de
--- categorias_servico e servicos_prestadora).
--- Ids: perfis.id = uuid (auth.users.id); demais tabelas: bigint generated always as identity.
--- TODO:
---   perfis (id = auth.users.id, papel cliente|prestadora, nome, avatar_url, bio, cidade)
---   categorias_servico (+ seed), servicos_prestadora (prestadora_id, categoria_id), fotos_portfolio
---   trigger que cria o perfil no cadastro
---   RLS em todas as tabelas
---   bucket de Storage "portfolio" e suas policies
