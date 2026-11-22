@@ -1,0 +1,2 @@
+-- Dona: Pessoa 3. Dados de demonstracao no nicho (servicos domesticos).
+-- TODO: 2 clientes e 3 prestadoras com senha conhecida, fotos, avaliacoes e conversas.

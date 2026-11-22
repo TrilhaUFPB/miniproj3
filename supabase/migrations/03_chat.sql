@@ -1,0 +1,7 @@
+-- Dona: Pessoa 3. Depende de 01_identidade.sql (so referencia perfis(id)).
+-- TODO:
+--   conversas (cliente_id, prestadora_id, UNIQUE no par, ultima_mensagem_em)
+--   mensagens (conversa_id, autor_id, texto, criada_em, lida_em)
+--   RLS: so os dois participantes leem e escrevem
+--   funcoes: iniciar_conversa(prestadora_id), marcar_lidas(conversa_id), nao_lidas()
+--   Realtime habilitado em mensagens

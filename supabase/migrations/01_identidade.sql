@@ -1,0 +1,7 @@
+-- Dona: Pessoa 1. Aplicar primeiro (02 e 03 dependem de perfis).
+-- TODO:
+--   perfis (id = auth.users.id, papel cliente|prestadora, nome, avatar_url, bio, cidade)
+--   categorias_servico (+ seed), servicos_prestadora, fotos_portfolio
+--   trigger que cria o perfil no cadastro
+--   RLS em todas as tabelas
+--   bucket de Storage "portfolio" e suas policies

@@ -1,0 +1,6 @@
+-- Dona: Pessoa 2. Depende de 01_identidade.sql (so referencia perfis(id)).
+-- TODO:
+--   avaliacoes (prestadora_id, cliente_id, nota CHECK 1..5, comentario, criada_em,
+--               UNIQUE (prestadora_id, cliente_id))
+--   RLS: leitura publica; insert so de cliente, em nome proprio, para uma prestadora
+--   view prestadoras_resumo (nota media e total de avaliacoes)
